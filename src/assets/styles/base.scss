@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: $light-gray;
+  color: #000000;
+  font-family: 'Inter', sans-serif;
+}
+
+button, input, textarea, select {
+  font-family: 'Inter', sans-serif;
+  border: none;
+  outline: none;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+.container {
+  width: 100%;
+  padding: 0 16px;
+  max-width: calc(1180px + 32px);
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 48px;
+}
